@@ -1,0 +1,18 @@
+# Model weights & checkpoints (terlalu besar untuk git)
+*.pkl
+*.bin
+*.safetensors
+checkpoints/
+bert-spam-classifier/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Env
+.env
+venv/
+
+# Panduan lokal (bukan bagian dari repo)
+git/
