@@ -2,8 +2,9 @@
 
 Fine-tuning BERT (`bert-base-uncased`) untuk klasifikasi pesan **spam vs ham**.
 
-> ⚠️ **Status: notebook siap dijalankan, belum di-run end-to-end.** Metrik final di bawah masih placeholder
-> dan akan diisi angka asli setelah dijalankan di Google Colab. Lihat catatan di `notebook/bert_spam_classifier.ipynb`.
+Tiga pendekatan dibandingkan pada test set yang sama: Naive Bayes baseline, BERT sebagai frozen feature
+extractor, dan BERT full fine-tuning. Semua sudah dijalankan dan dievaluasi di Google Colab — lihat
+tabel Hasil di bawah.
 
 ## Alur
 
@@ -102,3 +103,4 @@ teks spam berbahasa Inggris, sehingga frasa itu kemungkinan di luar distribusi d
 
 - Almeida, T. A., Gómez Hidalgo, J. M., & Yamakami, A. (2011). *Contributions to the Study of SMS Spam Filtering: New Collection and Results.* ACM DocEng.
 - Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.*
+
