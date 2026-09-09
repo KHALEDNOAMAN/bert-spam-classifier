@@ -1,0 +1,6 @@
+torch>=2.0
+transformers>=4.40
+datasets>=2.19
+scikit-learn>=1.4
+pandas>=2.0
+matplotlib>=3.8
